@@ -74,7 +74,7 @@ let ctx = canvas.getContext('2d')
 
 function onLoadImage () {
     const { width, height} = image
-    canvas.with = width
+    canvas.width = width
     canvas.height = height
 
     ctx.clearRect(0, 0, width, height)
